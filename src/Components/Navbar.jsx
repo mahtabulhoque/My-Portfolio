@@ -69,9 +69,9 @@ const Navbar = () => {
 
       <div onClick={toggleNav} className="md:hidden z-30">
         {nav ? (
-          <AiOutlineClose size={30}></AiOutlineClose>
+          <AiOutlineClose size={30}  className="cursor-pointer"></AiOutlineClose>
         ) : (
-          <AiOutlineMenu size={30}></AiOutlineMenu>
+          <AiOutlineMenu size={30}  className="cursor-pointer"></AiOutlineMenu>
         )}
       </div>
 
@@ -90,6 +90,7 @@ const Navbar = () => {
               smooth={true}
               offset={50}
               duration={500}
+              className="cursor-pointer"
             >
               About
             </Link>
@@ -102,6 +103,7 @@ const Navbar = () => {
               smooth={true}
               offset={50}
               duration={500}
+              className="cursor-pointer"
             >
               Portfolio
             </Link>
@@ -113,6 +115,7 @@ const Navbar = () => {
               smooth={true}
               offset={50}
               duration={500}
+              className="cursor-pointer"
             >
               contact
             </Link>
