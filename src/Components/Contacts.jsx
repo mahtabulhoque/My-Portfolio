@@ -73,8 +73,8 @@ const Contacts = () => {
         <div>
           <ul className="my-auto pr-6">
             <li className="flex">
-              <AiFillLinkedin className="w-[70px] h-auto text-gray-600" />
-              <AiFillGithub className="w-[70px] h-auto text-gray-600" />
+             <a href=""><AiFillLinkedin className="w-[70px] h-auto text-gray-600" /></a>
+              <a href=""><AiFillGithub className="w-[70px] h-auto text-gray-600" /></a>
               <div className="m-5">
                 <h3 className="text-lg font-bold text-gray-200">Get In Touch</h3>
                 <p className="text-white">Mobile: +8801615099376</p>
