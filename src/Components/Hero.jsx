@@ -1,6 +1,7 @@
 import { TypeAnimation } from 'react-type-animation';
 import profilePic from '../assets/me2.png'
 import CV from '../../public/demoREsume.pdf'
+import { Link } from 'react-scroll';
 const Hero = () => {
     return (
         <div className='grid md:grid-cols-2 place-items-center max-w-[1250px] mx-auto mb-8 md:mb-32 mt-14'>
@@ -34,7 +35,9 @@ const Hero = () => {
                    <button >Download CV</button>
                    </a>
 
-                    <button className='transform transition hover:scale-105 hover:shadow-lg z-10 cursor-pointer font-bold text-gray-200 w-1/2 mt-6 p-2 border border-gray-400 rounded-xl'>View Work</button>
+                 <Link className='transform transition hover:scale-105 hover:shadow-lg z-10 cursor-pointer font-bold text-gray-200 w-1/2 mt-6 p-2 border border-gray-400 rounded-xl text-center' to='contact'>
+                 <button>Hire Me</button>
+                 </Link>
                 </div>
 
             </div>
