@@ -63,7 +63,7 @@ const Contacts = () => {
 
   return (
     <div>
-      <h2 className="text-gray-200 text-3xl font-bold mb-10 text-center">
+      <h2 id="contact" className="text-gray-200 pt-6 text-3xl font-bold mb-10 text-center">
         CONTACTS
       </h2>
       <div
