@@ -1,5 +1,5 @@
 
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { AiFillFacebook, AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai";
 import Swal from "sweetalert2";
 
 const Contacts = () => {
@@ -72,9 +72,11 @@ const Contacts = () => {
       >
         <div>
           <ul className="my-auto pr-6">
-            <li className="flex">
-             <a href=""><AiFillLinkedin className="w-[70px] h-auto text-gray-600" /></a>
-              <a href=""><AiFillGithub className="w-[70px] h-auto text-gray-600" /></a>
+            <li className="flex-cols lg:flex">
+             <a href="https://www.linkedin.com/in/mahtabul-hoque-chowdhury-8b8738255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><AiFillLinkedin className="w-[70px] h-auto text-gray-600" /></a>
+              <a href="https://github.com/mahtabulhoque"><AiFillGithub className="w-[70px] h-auto text-gray-600" /></a>
+              <a href="https://www.facebook.com/mahtabulhoque.chy.5"><AiFillFacebook className="w-[70px] h-auto text-gray-600"/></a>
+              <a href="https://x.com/7Mahach5?t=2r1b2G8w5XxfDpWPzU05qQ&s=09"><AiFillTwitterCircle className="w-[70px] h-auto text-gray-600" /></a>
               <div className="m-5">
                 <h3 className="text-lg font-bold text-gray-200">Get In Touch</h3>
                 <p className="text-white">Mobile: +8801615099376</p>
