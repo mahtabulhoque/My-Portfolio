@@ -19,10 +19,10 @@ import translating from "../assets/translator.gif";
 
 const Skill = () => {
   return (
-    <div className="max-w-[1300px] mx-auto">
+    <div className="max-w-[1300px] mx-auto" id='skills'>
       <h2
         className="text-gray-200 text-3xl font-bold mb-6 text-center"
-        id="portfolio"
+        
       >
         SKILL
       </h2>
