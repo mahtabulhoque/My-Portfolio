@@ -1,5 +1,6 @@
 import { TypeAnimation } from 'react-type-animation';
 import profilePic from '../assets/me2.png'
+import CV from '../../public/demoREsume.pdf'
 const Hero = () => {
     return (
         <div className='grid md:grid-cols-2 place-items-center max-w-[1250px] mx-auto mb-8 md:mb-32 mt-14'>
@@ -27,8 +28,11 @@ const Hero = () => {
                 </p>
 
                 <div className='flex flex-row gap-4 mb-4 md:mb-0'>
-                    <button className='transform transition hover:scale-105 hover:shadow-lg
-                    z-10 cursor-pointer font-bold text-gray-200 w-1/2 mt-6 p-2 bg-gradient-to-r from-[#0e85b4] via-[#083d47] to-[#117583] rounded-xl'>Download CV</button>
+                   <a className='transform transition hover:scale-105 hover:shadow-lg
+                    z-10 cursor-pointer font-bold text-gray-200 w-1/2 mt-6 p-2 bg-gradient-to-r from-[#0e85b4] via-[#083d47] to-[#117583] rounded-xl text-center' href={CV} download={CV}>
+
+                   <button >Download CV</button>
+                   </a>
 
                     <button className='transform transition hover:scale-105 hover:shadow-lg z-10 cursor-pointer font-bold text-gray-200 w-1/2 mt-6 p-2 border border-gray-400 rounded-xl'>View Work</button>
                 </div>
