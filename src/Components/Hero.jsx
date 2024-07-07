@@ -1,5 +1,5 @@
 import { TypeAnimation } from 'react-type-animation';
-import profilePic from '../assets/me2.png'
+import profilePic from '../assets/me5.png'
 import CV from '../../public/demoREsume.pdf'
 import { Link } from 'react-scroll';
 const Hero = () => {

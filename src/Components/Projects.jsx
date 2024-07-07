@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { AiFillGithub } from "react-icons/ai";
-import craft from "../assets/craft.jpg";
-import job from "../assets/Job.jpg";
-import survey from "../assets/survey.jpg";
+import craft from "../assets/craft2.png";
+import job from "../assets/job2.png";
+import survey from "../assets/survey1.png";
 
 const projects = [
   {
@@ -20,7 +20,7 @@ const projects = [
   },
   {
     img: job,
-    title: "Job-Hunting",
+    title: "JobQuestHub",
     description: "UI for frontend development using React",
     Feature:
       "This React project focuses on job management with the following features:**Job Listings**: Displays all available jobs and allows users to view job details.**User Authentication**: Provides secure login and registration functionality.**Data Management**: Uses React Query for efficient data fetching and caching.**CRUD Operations**: Enables users to add, update, and view their own job listings.**Error Handling**: Includes an error page for managing routing and data fetching errors.",

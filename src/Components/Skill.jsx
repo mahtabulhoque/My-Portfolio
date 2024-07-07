@@ -19,7 +19,7 @@ import translating from "../assets/translator.gif";
 
 const Skill = () => {
   return (
-    <div className="max-w-[1300px] mx-auto" id='skills'>
+    <div className="max-w-[1300px] mx-auto " id='skills'>
       <h2
         className="text-gray-200 text-3xl font-bold mb-6 text-center"
         
@@ -27,7 +27,7 @@ const Skill = () => {
         SKILL
       </h2>
 
-      <div className="p-6 grid md:grid-cols-2 gap-8 place-items-center">
+      <div className="p-5 grid md:grid-cols-2 gap-8 place-items-center">
         <div className=" md:hidden bg-white bg-opacity-10 backdrop-blur-lg rounded-lg p-6 flex flex-wrap gap-4 text-4xl justify-center">
           <DiHtml5 className="text-orange-600" />
           <DiCss3 className="text-blue-700" />
@@ -54,7 +54,7 @@ const Skill = () => {
           </div>
         </div>
 
-        <div className="p-6 mx-5">
+        <div className="px-6">
           <h2 className="text-gray-200 text-3xl font-bold mb-4">
             FRONTEND-EXPERIENCE
           </h2>
@@ -83,7 +83,7 @@ const Skill = () => {
           </div>
         </div>
 
-        <div className="p-6 mx-5">
+        <div className="px-5">
           <h2 className="text-gray-200 text-3xl font-bold mb-4">
             BACKEND-EXPERIENCE
           </h2>
@@ -136,7 +136,7 @@ const Skill = () => {
           </div>
         </div>
 
-        <div className="p-6 mx-5">
+        <div className="px-5">
           <h2 className="text-gray-200 text-3xl font-bold mb-4">
             PART-TIME TRANSLATOR(Korean novel)
           </h2>
