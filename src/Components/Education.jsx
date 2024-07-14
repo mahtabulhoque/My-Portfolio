@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import school from '../assets/school.jpg';
+import school from '../assets/school1.jpg';
 import collage from '../assets/collage.jpg';
 import university from '../assets/university.png';
 
