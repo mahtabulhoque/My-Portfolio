@@ -20,8 +20,8 @@ const educations = [
   {
     img: university,
     School: 'University Of Chittagong',
-    Group: 'Science',
-    Passed: 'Still 4th Year',
+    Group: 'Arts',
+    Passed: 'No, Still in 4th Year',
   },
 ];
 
